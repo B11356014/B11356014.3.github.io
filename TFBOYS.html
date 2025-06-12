@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TFBOYS</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: "Helvetica", sans-serif;
+            background-color: #ff5900;
+        }
+        
+        .card {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            max-width: 900px;
+            margin: 40px auto;
+            background-color: #ffffff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            gap: 20px;
+        }
+        
+        .card-img {
+            width: 200px;
+            height: auto;
+            border-radius: 10px;
+        }
+        
+        .card-content {
+            flex: 1;
+        }
+        
+        .card-content h2 {
+            margin-top: 0;
+            font-size: 24px;
+        }
+        
+        .card-content p {
+            font-size: 16px;
+            color: #555;
+        }
+
+        .custom-btn {
+            font-size: 25px;
+            padding: 8px 20px;
+            border-radius: 15px;
+            background-color: #ffffff;
+            box-shadow: 0 4px 8px rgb(0, 0, 0);
+        }
+
+        .bottom-center {
+            position: fixed;
+            bottom: 30px; 
+            left: 50%;
+            transform: translateX(-50%);
+         }
+
+        @media (max-width: 768px) {
+            .card {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+            .card-img {
+                width: 100%;
+                max-width: 300px;
+            }
+            .card-content {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <img src="凱.jpg" alt="Card Image" class="card-img">
+        <div class="card-content">
+            <h2>王俊凱</h2>
+            <p>英文名：Karry Wang，生日1999年9月21日，出生於重慶，中國男歌手、演員，畢業於北京電影學院。2013年以少年偶像組合TFBOYS出道，並擔任隊長。</p>
+            <p>2020年在《福布斯中國名人榜》排名第10位。2024年憑電影《萬里歸途》獲提名第37屆大眾電影百花獎最佳男主角。</p> 
+            <p>代表作品：《Beautiful》《天坑鷹獵》《長城》《解憂雜貨店》《萬里歸途》《刺蝟》《野孩子》《重生之門》</p>
+        </div>
+    </div>
+    <div class="card">
+        <img src="源.jpg" alt="Card Image" class="card-img">
+        <div class="card-content">
+            <h2>王源</h2>
+            <p>英文名：Roy Wang，2000年11月8日，出生於重慶，中國創作男歌手、演員，柏克利音樂學院在讀。2013年以少年偶像組合TFBOYS出道，2015年發表第一首原創單曲《因為遇見你》，截至2023年已累計創作46首。</p>
+            <p>演藝事業含括歌唱、演戲、主持、創作、公益，跨領域多元發展。2017年11月2日美國《時代雜誌》評選為最具影響力青少年之一。</p>
+            <p>代表作品：《源》《肆百擊》《夏野了》《客廳狂歡》《地久天長》《北靈少年志之大主宰》《追光的日子》《孤星計劃》</p>
+        </div>
+    </div>
+    <div class="card">
+        <img src="千.jpg" alt="Card Image" class="card-img">
+        <div class="card-content">
+            <h2>易烊千璽</h2>
+            <p>英文名：Jackson Yee，2000年11月28日—），湖南懷化人，中國男演員、歌手及舞者，畢業於中央戲劇學院。2005年於中國出道，2009年加入飛炫少年組合，兩年後退出。2013年以TFBOYS組合出道。</p>
+            <p>2020年憑電影《少年的你》獲得第39屆香港電影金像獎最佳新演員、第35屆大眾電影百花獎最佳新人獎、第14屆亞洲電影大獎最佳新演員，並蟬聯2020、2021年富比士中國名人榜第一名。</p>
+            <p>代表作品：《長安十二時辰》《熱血同行》《少年的你》《送你一朵小紅花》《長津湖》《長津湖之水門橋》《奇蹟·笨小孩》《滿江紅》《小小的我》</p>
+        </div>
+    </div>
+    <div class="bottom-center"></div>
+        <a href="index.html" class="custom-btn btn-primary">回首頁</a>
+    </div>
+</body>
+
+</html>

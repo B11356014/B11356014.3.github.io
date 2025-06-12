@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B11356014</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: "Helvetica", sans-serif;
+            background-color: #ff84f9;
+        }
+        
+        .card {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            max-width: 500px;
+            margin: 40px auto;
+            background-color: #ffffff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            gap: 20px;
+        }
+        
+        .card-img {
+            width: 200px;
+            height: auto;
+            border-radius: 10px;
+        }
+        
+        .card-content {
+            flex: 1;
+        }
+        
+        .card-content h2 {
+            margin-top: 0;
+            font-size: 24px;
+        }
+        
+        .card-content p {
+            font-size: 16px;
+            color: #555;
+        }
+
+        .custom-btn {
+            font-size: 25px;
+            padding: 8px 20px;
+            border-radius: 15px;
+            background-color: #ffffff;
+            box-shadow: 0 4px 8px rgb(0, 0, 0);
+        }
+
+        .bottom-center {
+            position: fixed;
+            bottom: 30px; 
+            left: 50%;
+            transform: translateX(-50%);
+         }
+
+        @media (max-width: 768px) {
+            .card {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+            .card-img {
+                width: 100%;
+                max-width: 300px;
+            }
+            .card-content {
+                width: 100%;
+            }
+        }
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+        <nav class="navbar navbar-expend-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">我的追星手冊</a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navCollapse">
+                <u1 class="navbar-nav me-auto">
+                    <li class="nav-item"><a class="nav-link" href="TFBOYS.html">TFBOYS</a></li>
+                    <li class="nav-item"><a class="nav-link" href="院.html">名偵探學院</a></li>
+                    <li class="nav-item"><a class="nav-link" href="大.html">大偵探</a></li>
+                </u1>
+            </div>
+    </nav>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="card">
+            <img src="添福.jpg" alt="Card Image" class="card-img">
+            <div class="card-content">
+                <h2>TFBOYS</h2>
+                <p>全名The Fighting Boys，中文名為加油男孩，是時代峰峻旗下的第一代少年偶像組合，組合成員由王俊凱、王源與易烊千璽組成，於2013年8月6日出道。</p>
+                <p>2013年8月6日時代峰峻推出，於網路發布以組合形象宣傳片《十年》正式出道，並發行首張EP。</p>
+            </div>
+        </div>
+    <div class="card">
+        <img src="院.jpg" alt="Card Image" class="card-img">
+        <div class="card-content">
+            <h2>名偵探學院</h2>
+            <p>全名為《明星大偵探之名偵探學院》，是一檔融合推理與綜藝的節目，帶領觀眾進入趣味與智慧交織的冒險世界。</p>
+        </div>
+    </div>
+    <div class="card">
+        <img src="探.jpg" alt="Card Image" class="card-img">
+        <div class="card-content">
+            <h2>大偵探</h2>
+            <p>英語：Who's the Murderer，原節目名為《明星大偵探》，第七季之後改名為《大偵探》。節目結合角色扮演與推理挑戰，觀眾隨明星一同解開案件謎團。</p>
+        </div>
+    </div>
+</body>
+
+</html>
